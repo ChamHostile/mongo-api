@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-api",
+  "version": "1.0.0",
+  "description": "mongo-db-api mds",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "prod": "node index.js production"
+  },
+  "author": "Hamza Aboudou",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  }
+}
