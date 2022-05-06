@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 
 const EventSchema = new mongoose.Schema({
-  name: {type: String},
+  name: {type : String},
   description: {type: String},
   date_start: {type: Date},
   date_end: {type: Date},
@@ -17,6 +17,7 @@ const EventSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'users'
   }],
+},{
   collection: 'events',
   minimize: false,
   versionKey: false
